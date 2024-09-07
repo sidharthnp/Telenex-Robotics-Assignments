@@ -3,6 +3,11 @@
 This README.md file contains three beginner-level ROS 2 systems, all using the **publish-subscribe (pub-sub)** model. 
 Each system utilizes custom ROS 2 messages for communication between nodes. No sensor subscriptions are involved; the focus is on simplicity and mastering the basics.
 
+## Resources to aid you while solving the problem:
+- geometry_msgs[https://docs.ros2.org/galactic/api/geometry_msgs/index-msg.html]
+- sensor_msgs[https://docs.ros2.org/galactic/api/sensor_msgs/index-msg.html]
+- std_msgs[https://docs.ros2.org/galactic/api/std_msgs/index-msg.html]
+
 ## Problem 1: Decentralized Robotic Fleet Telemetry System with Dynamic Task Distribution
 In a distributed warehouse environment, a fleet of autonomous robots must asynchronously transmit operational telemetry data (battery levels, spatial coordinates, and 
 task engagement) to a central coordinator. The coordinator must ingest, filter, and evaluate each robot's status to dynamically allocate tasks based on real-time robot 
