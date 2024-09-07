@@ -59,9 +59,9 @@ feasibility without executing physical motions.
 ### Running the Systems
 To run the systems, use the respective launch files:
 
-Robot Fleet Management: `ros2 launch <robot_fleet_launch_file>`
-Drone Status Monitoring: `ros2 launch <drone_status_launch_file>`
-Warehouse Grasping Control: `ros2 launch <grasping_control_launch_file>`
+- Robot Fleet Management: `ros2 launch <robot_fleet_launch_file>`
+- Drone Status Monitoring: `ros2 launch <drone_status_launch_file>`
+- Warehouse Grasping Control: `ros2 launch <grasping_control_launch_file>`
 
 ----------------------------------------------------------
 ## NOTE: All three problem statements and solutions are beginner-friendly and adhere to the pub-sub model without involving any sensor data subscriptions!
