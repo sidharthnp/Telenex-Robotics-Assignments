@@ -46,4 +46,6 @@ feasibility without executing physical motions.
 ### Challenges:
 - Simulate the vision-processing pipeline for detecting objects and calculating their graspable status.
 - Build a complex message structure that provides detailed object information for robotic arm control logic.
-## All three problem statements and solutions are beginner-friendly and adhere to the pub-sub model without involving any sensor data subscriptions!
+
+-----------------------------------------------------
+## NOTE: All three problem statements and solutions are beginner-friendly and adhere to the pub-sub model without involving any sensor data subscriptions!
