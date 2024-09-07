@@ -5,8 +5,8 @@ Each system utilizes custom ROS 2 messages for communication between nodes. No s
 
 ## Resources to aid you while solving the problem:
 - [geometry_msgs](https://docs.ros2.org/galactic/api/geometry_msgs/index-msg.html)
-- [sensor_msgs] (https://docs.ros2.org/galactic/api/sensor_msgs/index-msg.html)
-- [std_msgs] (https://docs.ros2.org/galactic/api/std_msgs/index-msg.html)
+- [sensor_msgs](https://docs.ros2.org/galactic/api/sensor_msgs/index-msg.html)
+- [std_msgs](https://docs.ros2.org/galactic/api/std_msgs/index-msg.html)
 
 ------------------------------------------------------------
 
