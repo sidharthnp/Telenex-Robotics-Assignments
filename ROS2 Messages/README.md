@@ -23,6 +23,7 @@ the data to assign tasks.
 - Robots must publish a consistent data stream in real-time without collision or data loss.
 - The central node should evaluate the status, calculate optimal task assignments, and simulate task distribution.
 
+## Hint: When the term fleet is in the Problem Statement you have to make sure that there are more than 1 robots
 ---------------------------------------------------------------
 
 ## Problem 2: Multi-Node Autonomous Aerial Vehicle Status Propagation with Kinematic Data Aggregation
