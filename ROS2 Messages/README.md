@@ -25,7 +25,7 @@ the data to assign tasks.
 
 ---------------------------------------------------------------
 
-## Problem 2: Decentralized Robotic Fleet Telemetry System with Dynamic Task Distribution
+## Problem 2: Multi-Node Autonomous Aerial Vehicle Status Propagation with Kinematic Data Aggregation
 An autonomous aerial vehicle must propagate continuous kinematic and power data to a monitoring station via a custom inter-node communication protocol. 
 The vehicle must send complex, multi-dimensional information (including velocity vectors, power levels, and altitude) at varying frequencies. 
 The monitoring station must efficiently parse and visualize the incoming data for real-time flight diagnostics.
