@@ -12,13 +12,10 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Telemetry.msg"
-  "srv/TaskDistribution.srv"
-  DEPENDENCIES std_msgs 
+  "msg/ObjectDetection.msg"
+  "srv/GraspingEvaluation.srv"
+  DEPENDENCIES std_msgs builtin_interfaces
 )
-
-
-
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -26,6 +23,6 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-ament_export_dependencies(rosidl_default_runtime)
+
 ament_package()
 

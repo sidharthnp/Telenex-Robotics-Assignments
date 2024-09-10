@@ -3,21 +3,15 @@
 <package format="3">
   <name>my_pkg</name>
   <version>0.0.0</version>
-  <description>Package for robot nodes and central coordinator.</description>
+  <description>Package for publishing and subscribing to custom messages.</description>
   <maintainer email="km@todo.todo">km</maintainer>
   <license>Apache-2.0</license>
 
-  <!-- Build tool dependencies -->
   <buildtool_depend>ament_python</buildtool_depend>
   <build_depend>custom_interfaces</build_depend>
-  <build_depend>builtin_interfaces</build_depend>
-  
-  <!-- Runtime dependencies -->
   <exec_depend>rclpy</exec_depend>
-  <exec_depend>builtin_interfaces</exec_depend>
   <exec_depend>custom_interfaces</exec_depend>
 
-  <!-- Testing dependencies -->
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
   <test_depend>ament_flake8</test_depend>

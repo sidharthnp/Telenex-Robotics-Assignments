@@ -3,7 +3,7 @@
 <package format="3">
   <name>custom_interfaces</name>
   <version>0.0.0</version>
-  <description>Custom interfaces for robotic fleet telemetry and task distribution.</description>
+  <description>Custom interfaces for object detection and grasping evaluation.</description>
   <maintainer email="km@todo.todo">km</maintainer>
   <license>Apache-2.0</license>
 
@@ -19,3 +19,4 @@
     <build_type>ament_cmake</build_type>
   </export>
 </package>
+

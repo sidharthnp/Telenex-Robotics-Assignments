@@ -15,13 +15,13 @@ setup(
     zip_safe=True,
     maintainer='km',
     maintainer_email='km@todo.todo',
-    description='Package for robot nodes and central coordinator.',
+    description='Package for publishing and subscribing to custom messages.',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'robot_node = my_pkg.robot_node:main',
-            'fleet_manager = my_pkg.fleet_manager:main',
+            'object_detection_publisher = my_pkg.object_detection_publisher:main',
+            'object_detection_subscriber = my_pkg.object_detection_subscriber:main',
         ],
     },
 )
