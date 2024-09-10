@@ -1,0 +1,6 @@
+string robot_id
+float64 crop_yield
+string status  # harvesting/maintenance/idle
+---
+string schedule  # idle/maintenance/nextfield
+
