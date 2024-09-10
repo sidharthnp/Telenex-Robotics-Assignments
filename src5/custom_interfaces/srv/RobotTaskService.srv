@@ -1,0 +1,8 @@
+# Request
+string status
+float32 area_covered
+
+---
+# Response
+string new_status
+
